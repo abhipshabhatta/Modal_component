@@ -1,0 +1,27 @@
+.btn {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .primary-btn {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .secondary-btn {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .third-color {
+    background-color: var(--tertiary-color);
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }

@@ -1,0 +1,20 @@
+.navElement {
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navElement img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .navElement a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navElement a:hover {
+    color: var(--primary-color);
+  }
